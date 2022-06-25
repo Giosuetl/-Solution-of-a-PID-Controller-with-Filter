@@ -1,0 +1,9 @@
+En primer lugar, un polo o cero inestable en el sistema no debe cancelarse porque la cancelación conducirá 
+a un sistema internamente inestable,por la razón de que el polo cancelado o cero todavía es parte de los polos de bucle cerrado deseados.
+
+En segundo lugar, un polo estable cerca del eje imaginario, que es un polo correspondiente a una constante 
+de tiempo grande, en el sistema no debe cancelarse porque el polo lento reaparecerá para convertirse en el 
+polo dominante en la respuesta de bucle cerrado a la perturbación de entrada. , y como resultado, se producirá 
+un rechazo lento de perturbaciones. Como regla general, un polo estable o cero podría cancelarse si su posición 
+está en el lado izquierdo de los polos en lazo cerrado deseados en el plano complejo. Además, es el polo estable
+ más rápido en el modelo de planta el que se cancela.
